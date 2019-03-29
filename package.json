@@ -1,0 +1,48 @@
+{
+  "name": "@edsdk/flmngr-example",
+  "version": "1.0.1",
+  "private": false,
+  "description": "",
+  "author": "https://flmngr.com/",
+  "license": "Commercial EdSDK license",
+  "scripts": {
+    "start": "npm i && npm run build && npm run run",
+    "run": "node server.js",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "@edsdk/flmngr": "^1.0.0",
+    "@edsdk/flmngr-server": "^1.0.0",
+    "bootstrap": "^4.3.1",
+    "compression": "^1.7.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.13.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.1.5",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  },
+  "keywords": [
+    "edsdk",
+    "file-manager",
+    "file",
+    "image",
+    "manager",
+    "server",
+    "example",
+    "express",
+    "imgpen",
+    "uploader"
+  ]
+}
