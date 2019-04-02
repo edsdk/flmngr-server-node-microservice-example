@@ -9,20 +9,20 @@ ImgPen image editor ([@edsdk/imgpen](https://npmjs.com/package/@edsdk/flmngr)) i
 
 ## Install, build, run
 
-1. Clone this repository:
+Clone this repository:
 
 ```text
 git clone https://github.com/edsdk/flmngr-example
 cd flmngr-example
 ```
 
-2. Build and run it
+Then build and run it
 
 ```text
 npm run start
 ```
 
-Then open [http://localhost:8080] URL in your browser and enjoy the demo.
+Then open [http://localhost:8080](http://localhost:8080) URL in your browser and enjoy the demo.
 
 
 ## Explanation
