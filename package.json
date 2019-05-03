@@ -1,6 +1,6 @@
 {
   "name": "@edsdk/flmngr-example",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "",
   "author": "https://flmngr.com/",
@@ -13,11 +13,12 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@edsdk/flmngr": "^1.0.8",
-    "@edsdk/flmngr-server": "^1.0.1",
+    "@edsdk/flmngr": "^1.0.9",
+    "@edsdk/flmngr-server": "^1.0.4",
     "bootstrap": "^4.3.1",
     "compression": "^1.7.4",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "tar": ">=4.4.2"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",

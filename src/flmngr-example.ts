@@ -3,7 +3,7 @@ import {IFile, openFlmngr} from '@edsdk/flmngr';
 window.addEventListener("DOMContentLoaded", function() {
 	document.getElementById('btn1').addEventListener('click', function() {
 		openFlmngr({
-			urlFileManager: 'http://localhost:8080/flmngr/',
+			urlFileManager: 'http://localhost:8080/flmngr',
 			useImageEditor: true,
 			onOk: (files: IFile[]) => {
 
